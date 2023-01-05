@@ -1,4 +1,4 @@
-This repository contains the source codes for the paper, 'Restricted Near Collision Attack on Plantlet'.
+This repository contains the source codes for the paper, '**Restricted Near Collision Attack on Plantlet**'. 
 
 ## Software Used
 1. [Sagemath](https://www.sagemath.org/)
@@ -7,13 +7,15 @@ This repository contains the source codes for the paper, 'Restricted Near Collis
 
 ## Setup
 
-1. To install sagemath in conda environment:
+1. To install sagemath in conda environment, use the following command:
 	* 'conda config --add channels conda-forge'
 	* 'conda config --set channel_priority strict'
 	* 'conda create -n sage sage python=3.8'
 
 2. Activate the new environment: 'conda activate sage'
-3. Install the required package cryptominisat : `conda install -c conda-forge cryptominisat` and 'conda install -c conda-forge libcryptominisat'
+3. Install the required package cryptominisat using the following command:
+	* 'conda install -c conda-forge cryptominisat`
+	* 'conda install -c conda-forge libcryptominisat'
 
 
 
