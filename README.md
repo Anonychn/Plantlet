@@ -24,9 +24,9 @@ This repository contains the source codes for the paper, '**Restricted Near Coll
 
 2. `2_Plantlet_Encryption.sage`: Script to measure the average time for 1 Plantlet encryption.
 
-3. `3_Plantlet_UNSAT_time.sage`: Script to measure the average UNSAT time for solving a system of nonlinear equations.
+3. `3_Plantlet_UNSAT_time.sage`: Script to measure the average UNSAT time while solving a system of nonlinear equations.
 
-3. `4_Plantlet_SAT_time.sage`: Script to measure the average SAT time for solving a system of nonlinear equations.
+3. `4_Plantlet_SAT_time.sage`: Script to measure the average SAT time while solving a system of nonlinear equations.
 
 
 
