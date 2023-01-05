@@ -20,13 +20,13 @@ This repository contains the source codes for the paper, '**Restricted Near Coll
 
 ## File Structure
 
-1. `1_Plantlet_fixed_0-1_type1_equ_type2_equ.sage`: Script for finding the position of fixed 0/1 in the Keystream Difference (KSD) for some fixed difference in the LFSR of the internal state. Also find the type1 and type2 equations and their positions.
+1. `1_Plantlet_fixed_0-1_type1_equ_type2_equ.sage`: Script for finding the positions where Keystream Difference (KSD) equation is either fixed to 0/1 or of Type I/II for a fixed difference in the LFSR of the internal state.
 
-2. `2_Plantlet_Encryption.sage`: Script to measure the average time taken for 1 Plantlet encryption
+2. `2_Plantlet_Encryption.sage`: Script to measure the average time for 1 Plantlet encryption.
 
-3. `3_Plantlet_UNSAT_time.sage`: Script to measure the average UNSAT time for solving system of nonlinear equations.
+3. `3_Plantlet_UNSAT_time.sage`: Script to measure the average UNSAT time for solving a system of nonlinear equations.
 
-3. `4_Plantlet_SAT_time.sage`: Script to measure the average SAT time for solving system of nonlinear equations.
+3. `4_Plantlet_SAT_time.sage`: Script to measure the average SAT time for solving a system of nonlinear equations.
 
 
 
