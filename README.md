@@ -8,8 +8,8 @@ This repository contains the source codes for the paper, '**Restricted Near Coll
 ## Setup
 
 1. To install sagemath in conda environment, use the following command:
-	+ `conda config --add channels conda-forge`
-	+ `conda create -n sage sage python=3.8`
+    * `conda config --add channels conda-forge`
+	* `conda create -n sage sage python=3.8`
 
 2. Activate the new environment: `conda activate sage`
 3. Install the required package cryptominisat as follows:
@@ -24,13 +24,13 @@ This repository contains the source codes for the paper, '**Restricted Near Coll
 
 2. `2_Plantlet_Encryption.sage`: Script to measure the average encryption time for 1 Plantlet encryption
 
-3. `3_Plantlet_UNSAT_time.sage`: Script to mesure the average UNSAT time for solving system of nonlinear equations.
+3. `3_Plantlet_UNSAT_time.sage`: Script to measure the average UNSAT time for solving system of nonlinear equations.
 
-3. `4_Plantlet_SAT_time.sage`: Script to mesure the average SAT time for solving system of nonlinear equations.
+3. `4_Plantlet_SAT_time.sage`: Script to measure the average SAT time for solving system of nonlinear equations.
 
 
 
 ## Usage
-1. Activate sagemath by running the command `conda activate sage'
-2. Compile and run by the command `sage file_name.sage' 
+1. Activate SageMath: `conda activate sage`
+2. Compile the file: `sage file_name.sage`
 
