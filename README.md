@@ -8,9 +8,9 @@ This repository contains the source codes for the paper, 'Restricted Near Collis
 ## Setup
 
 1. To install sagemath in conda environment:
-		step 1:  'conda config --add channels conda-forge'
-		step 2:  'conda config --set channel_priority strict'
-		step 3:  'conda create -n sage sage python=3.8'
+	a. 'conda config --add channels conda-forge'
+	b. 'conda config --set channel_priority strict'
+	c. 'conda create -n sage sage python=3.8'
 
 2. Activate the new environment: 'conda activate sage'
 3. Install the required package cryptominisat : `conda install -c conda-forge cryptominisat` and 'conda install -c conda-forge libcryptominisat'
