@@ -8,8 +8,8 @@ This repository contains the source codes for the paper, '**Restricted Near Coll
 ## Setup
 
 1. To install sagemath in conda environment, use the following command:
-	* `conda config --add channels conda-forge`
-	* `conda create -n sage sage python=3.8`
+	+ `conda config --add channels conda-forge`
+	+ `conda create -n sage sage python=3.8`
 
 2. Activate the new environment: `conda activate sage`
 3. Install the required package cryptominisat as follows:
@@ -31,6 +31,6 @@ This repository contains the source codes for the paper, '**Restricted Near Coll
 
 
 ## Usage
-step 1: Activate sagemath by running the command `conda activate sage'
-step 2: Compile and run by the command `sage file_name.sage' 
+1. Activate sagemath by running the command `conda activate sage'
+2. Compile and run by the command `sage file_name.sage' 
 
